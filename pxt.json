@@ -1,1 +1,13 @@
-pxt.json
+{
+  "name": "multilayermap",
+  "description": "MakeCode extension for multilayer tilemaps (ideal for parkour/fake‑3D)",
+  "dependencies": {
+    "core": "*",
+    "device": "*"
+  },
+  "files": [
+    "main.ts"
+  ],
+  "public": true,
+  "license": "MIT"
+}
