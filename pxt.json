@@ -1,6 +1,6 @@
 {
   "name": "multilayermap",
-  "description": "MakeCode extension for multilayer tilemaps (ideal for parkour/fake‑3D)",
+  "description": "MakeCode Arcade extension for multilayer tilemaps (for parkour)",
   "dependencies": {
     "core": "*",
     "device": "*"
@@ -8,6 +8,5 @@
   "files": [
     "main.ts"
   ],
-  "public": true,
   "license": "MIT"
 }
