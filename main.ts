@@ -5,7 +5,9 @@ namespace multilayermap {
     let layers: tiles.TileMapData[] = []
 
     /**
-     * Define a tilemap layer. Use this block multiple times to register layers.
+     * Define a tilemap layer at a specific index.
+     * @param layer the layer number to store the tilemap
+     * @param map the tilemap to assign to this layer
      */
     //% blockId="multilayermap_setLayer"
     //% block="define layer %layer|with tilemap %map"
@@ -14,7 +16,8 @@ namespace multilayermap {
     }
 
     /**
-     * Switches to the given map layer.
+     * Switches the current tilemap to the one stored at the given layer.
+     * @param layer the layer to switch to
      */
     //% blockId="multilayermap_goToLayer"
     //% block="go to layer %layer"
@@ -26,7 +29,7 @@ namespace multilayermap {
     }
 
     /**
-     * Returns the currently active layer index.
+     * Get the currently active layer.
      */
     //% blockId="multilayermap_getCurrentLayer"
     //% block="current layer"
